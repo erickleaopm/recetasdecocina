@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kocina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1><a href="home.html">Kocina</a></h1>
+        <div class="nav-links">
+          <nav>
+            <ul>
+              <li>
+                <a href="home.html">Inicio</a>
+              </li>
+              <li>
+                <a href="recetas.html">Recetas</a>
+              </li>
+              <li>
+                <a href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#suscribete" class="boton">Suscríbete</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <div class="overlay"></div>
+          <div class="hero-contenido">
+            <h2>Elige entre cientos de recetas</h2>
+            <p>
+              Descubre la receta apropiada para cada ocasión, y dejate guiar de
+              forma sencilla y rápida para lograr un banquete digno de un chef
+            </p>
+            <a href="#"
+              >Suscríbete hoy mismo
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+                />
+              </svg>
+            </a>
+          </div>
+        </section>
+
+        <section id="recetas">
+          <h2>Recetas de cocina</h2>
+          <div id="listado-recetas">
+            <a href="recetas/brochetas.html">
+              <article class="receta">
+                <figure>
+                  <img
+                    src="./images/brochetas-campestres.jpg"
+                    alt="Deliciosas brochetas de cerdo con pimientos"
+                    width="450"
+                    height="300"
+                  />
+                </figure>
+                <p>Brochetas campestres</p>
+              </article>
+            </a>
+            <a href="recetas/pastel-imposible.html">
+              <article class="receta">
+                <figure>
+                  <img
+                    src="./images/pastel-imposible.jpg"
+                    alt="Increíble pastel imposible y sin hornear"
+                    width="450"
+                    height="300"
+                  />
+                </figure>
+                <p>Pastel imposible sin horno</p>
+              </article>
+            </a>
+            <a href="#">
+              <article class="receta">
+                <figure>
+                  <img
+                    src="./images/hamburguesa.jpg"
+                    alt="Increíble pastel imposible y sin hornear"
+                    width="450"
+                    height="300"
+                  />
+                </figure>
+                <p>Hamburguesa de res con tocino</p>
+              </article>
+            </a>
+          </div>
+        </section>
+
+        <section id="suscribete">
+          <div class="container">
+            <h2>
+              Sé el primero en conocer las últimas ofertas, recibir nuevas
+              recetas de tendencia y mucho más.
+            </h2>
+            <form>
+              <label for="email" class="sr-only">Email</label>
+              <input type="text" name="email" id="email" placeholder="Email"/>
+              <input type="submit" value="Subcríbete" />
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>Hecho con HTML y CSS, por Erick Pérez &copy;</p>
+    </footer>
+  </body>
+</html>
